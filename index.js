@@ -31,7 +31,7 @@ const options = {
 const swaggerSpec = swaggerJsdoc(options);
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 
-const uri = "mongodb+srv://ainfaqihah:Ain_020803@cluster0.5nmy5.mongodb.net/";
+const uri = "mongodb+srv://yoe:1234@cluster0.mj5vs.mongodb.net/";
 const client = new MongoClient(uri);
 app.use(express.json());
 
